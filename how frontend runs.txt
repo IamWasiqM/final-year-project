@@ -1,0 +1,75 @@
+first create app
+Run this command inside schedly folder
+npx create-next-app@latest frontend
+
+👉 This will:
+
+Automatically create frontend/
+Add all required files inside it1
+
+
+step 2
+🚀 AFTER INSTALL FINISHES
+
+Run:
+
+cd frontend
+npm run dev
+
+after this given prompt 
+You are a senior frontend developer.
+
+Modify a Next.js App Router project using TypeScript and Tailwind CSS.
+
+Create a clean homepage UI for an app called "Schedly".
+
+Requirements:
+
+1. Navbar:
+- Left: Logo text "Schedly"
+- Right: Navigation links:
+  - Home
+  - Book
+  - Availability
+  - Cancel
+
+2. Hero Section:
+- Heading: "AI Appointment Scheduling"
+- Subheading: "Book, cancel, and manage appointments using AI"
+- 3 buttons:
+  - Book Appointment
+  - Check Availability
+  - Cancel Appointment
+
+3. Design:
+- Use Tailwind CSS
+- Modern SaaS style (rounded buttons, spacing, shadows)
+- Fully responsive
+
+4. Use TypeScript (.tsx)
+5. Keep everything inside app/page.tsx
+
+Return full working code only.
+
+
+
+code found 
+pasted and basic ui runs 
+
+
+
+🚀 NEXT STEP — MAKE BUTTONS WORK (Navigation)
+
+Now we’ll make:
+
+Book → go to /book
+Availability → go to /availability
+Cancel → go to /cancel	
+
+
+for vapi voice widget 
+cd frontend
+npm install @vapi-ai/web	
+
+cd frontend
+npm install @vapi-ai/client-sdk-react
